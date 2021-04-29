@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.29)  29 APR 2021 19:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.4.29)  29 APR 2021 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -162,6 +162,36 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
 )
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
+e.sty
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
+y
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+\MT@toks=\toks24
+\MT@count=\count199
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen148
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count266
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
+e-pdftex.def
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip52
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
+e.cfg
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
+))
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
 Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
@@ -182,11 +212,6 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
-y
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
 )
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetk
 eys.sty
@@ -216,9 +241,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 s.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen148
-\Hy@linkcounter=\count199
-\Hy@pagecounter=\count266
+\@linkdim=\dimen149
+\Hy@linkcounter=\count267
+\Hy@pagecounter=\count268
 
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -239,7 +264,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count267
+\Hy@SavedSpaceFactor=\count269
 
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -254,13 +279,13 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count268
+\c@Hy@tempcnt=\count270
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen149
+\XeTeXLinkMargin=\dimen150
 
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.st
 y
@@ -271,9 +296,9 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count269
-\Field@Width=\dimen150
-\Fld@charsize=\dimen151
+\Fld@menulength=\count271
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
 Package hyperref Info: Hyper figures OFF on input line 6075.
 Package hyperref Info: Link nesting OFF on input line 6080.
 Package hyperref Info: Hyper index ON on input line 6083.
@@ -290,9 +315,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count270
-\c@Item=\count271
-\c@Hfootnote=\count272
+\Hy@abspage=\count272
+\c@Item=\count273
+\c@Hfootnote=\count274
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -306,8 +331,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count273
-\c@bookmark@seq@number=\count274
+\Fld@listcount=\count275
+\c@bookmark@seq@number=\count276
 
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -320,7 +345,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip52
+\Hy@SectionHShift=\skip53
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 26.
 
@@ -331,18 +356,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count275
-\Gm@cntv=\count276
-\c@Gm@tempcnt=\count277
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks24
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks25
 )
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.
 sty
@@ -351,72 +376,72 @@ Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
 sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count278
+\etb@tempcnta=\count280
 ) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.st
 y
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count279
+\lrq@indent=\count281
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count280
-\c@listtotal=\count281
-\c@listcount=\count282
-\c@liststart=\count283
-\c@liststop=\count284
-\c@citecount=\count285
-\c@citetotal=\count286
-\c@multicitecount=\count287
-\c@multicitetotal=\count288
-\c@instcount=\count289
-\c@maxnames=\count290
-\c@minnames=\count291
-\c@maxitems=\count292
-\c@minitems=\count293
-\c@citecounter=\count294
-\c@maxcitecounter=\count295
-\c@savedcitecounter=\count296
-\c@uniquelist=\count297
-\c@uniquename=\count298
-\c@refsection=\count299
-\c@refsegment=\count300
-\c@maxextratitle=\count301
-\c@maxextratitleyear=\count302
-\c@maxextraname=\count303
-\c@maxextradate=\count304
-\c@maxextraalpha=\count305
-\c@abbrvpenalty=\count306
-\c@highnamepenalty=\count307
-\c@lownamepenalty=\count308
-\c@maxparens=\count309
-\c@parenlevel=\count310
-\blx@tempcnta=\count311
-\blx@tempcntb=\count312
-\blx@tempcntc=\count313
-\blx@maxsection=\count314
-\blx@maxsegment@0=\count315
-\blx@notetype=\count316
-\blx@parenlevel@text=\count317
-\blx@parenlevel@foot=\count318
-\blx@sectionciteorder@0=\count319
-\blx@entrysetcounter=\count320
-\blx@biblioinstance=\count321
-\labelnumberwidth=\skip53
-\labelalphawidth=\skip54
-\biblabelsep=\skip55
-\bibitemsep=\skip56
-\bibnamesep=\skip57
-\bibinitsep=\skip58
-\bibparsep=\skip59
-\bibhang=\skip60
+\c@tabx@nest=\count282
+\c@listtotal=\count283
+\c@listcount=\count284
+\c@liststart=\count285
+\c@liststop=\count286
+\c@citecount=\count287
+\c@citetotal=\count288
+\c@multicitecount=\count289
+\c@multicitetotal=\count290
+\c@instcount=\count291
+\c@maxnames=\count292
+\c@minnames=\count293
+\c@maxitems=\count294
+\c@minitems=\count295
+\c@citecounter=\count296
+\c@maxcitecounter=\count297
+\c@savedcitecounter=\count298
+\c@uniquelist=\count299
+\c@uniquename=\count300
+\c@refsection=\count301
+\c@refsegment=\count302
+\c@maxextratitle=\count303
+\c@maxextratitleyear=\count304
+\c@maxextraname=\count305
+\c@maxextradate=\count306
+\c@maxextraalpha=\count307
+\c@abbrvpenalty=\count308
+\c@highnamepenalty=\count309
+\c@lownamepenalty=\count310
+\c@maxparens=\count311
+\c@parenlevel=\count312
+\blx@tempcnta=\count313
+\blx@tempcntb=\count314
+\blx@tempcntc=\count315
+\blx@maxsection=\count316
+\blx@maxsegment@0=\count317
+\blx@notetype=\count318
+\blx@parenlevel@text=\count319
+\blx@parenlevel@foot=\count320
+\blx@sectionciteorder@0=\count321
+\blx@entrysetcounter=\count322
+\blx@biblioinstance=\count323
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language3
-\c@mincomprange=\count322
-\c@maxcomprange=\count323
-\c@mincompwidth=\count324
+\c@mincomprange=\count324
+\c@maxcomprange=\count325
+\c@mincompwidth=\count326
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -428,88 +453,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count325
-\c@savedafterword=\count326
-\c@annotator=\count327
-\c@savedannotator=\count328
-\c@author=\count329
-\c@savedauthor=\count330
-\c@bookauthor=\count331
-\c@savedbookauthor=\count332
-\c@commentator=\count333
-\c@savedcommentator=\count334
-\c@editor=\count335
-\c@savededitor=\count336
-\c@editora=\count337
-\c@savededitora=\count338
-\c@editorb=\count339
-\c@savededitorb=\count340
-\c@editorc=\count341
-\c@savededitorc=\count342
-\c@foreword=\count343
-\c@savedforeword=\count344
-\c@holder=\count345
-\c@savedholder=\count346
-\c@introduction=\count347
-\c@savedintroduction=\count348
-\c@namea=\count349
-\c@savednamea=\count350
-\c@nameb=\count351
-\c@savednameb=\count352
-\c@namec=\count353
-\c@savednamec=\count354
-\c@translator=\count355
-\c@savedtranslator=\count356
-\c@shortauthor=\count357
-\c@savedshortauthor=\count358
-\c@shorteditor=\count359
-\c@savedshorteditor=\count360
-\c@labelname=\count361
-\c@savedlabelname=\count362
-\c@institution=\count363
-\c@savedinstitution=\count364
-\c@lista=\count365
-\c@savedlista=\count366
-\c@listb=\count367
-\c@savedlistb=\count368
-\c@listc=\count369
-\c@savedlistc=\count370
-\c@listd=\count371
-\c@savedlistd=\count372
-\c@liste=\count373
-\c@savedliste=\count374
-\c@listf=\count375
-\c@savedlistf=\count376
-\c@location=\count377
-\c@savedlocation=\count378
-\c@organization=\count379
-\c@savedorganization=\count380
-\c@origlocation=\count381
-\c@savedoriglocation=\count382
-\c@origpublisher=\count383
-\c@savedorigpublisher=\count384
-\c@publisher=\count385
-\c@savedpublisher=\count386
-\c@language=\count387
-\c@savedlanguage=\count388
-\c@origlanguage=\count389
-\c@savedoriglanguage=\count390
-\c@pageref=\count391
-\c@savedpageref=\count392
-\shorthandwidth=\skip61
-\shortjournalwidth=\skip62
-\shortserieswidth=\skip63
-\shorttitlewidth=\skip64
-\shortauthorwidth=\skip65
-\shorteditorwidth=\skip66
-\locallabelnumberwidth=\skip67
-\locallabelalphawidth=\skip68
-\localshorthandwidth=\skip69
-\localshortjournalwidth=\skip70
-\localshortserieswidth=\skip71
-\localshorttitlewidth=\skip72
-\localshortauthorwidth=\skip73
-\localshorteditorwidth=\skip74
+\c@afterword=\count327
+\c@savedafterword=\count328
+\c@annotator=\count329
+\c@savedannotator=\count330
+\c@author=\count331
+\c@savedauthor=\count332
+\c@bookauthor=\count333
+\c@savedbookauthor=\count334
+\c@commentator=\count335
+\c@savedcommentator=\count336
+\c@editor=\count337
+\c@savededitor=\count338
+\c@editora=\count339
+\c@savededitora=\count340
+\c@editorb=\count341
+\c@savededitorb=\count342
+\c@editorc=\count343
+\c@savededitorc=\count344
+\c@foreword=\count345
+\c@savedforeword=\count346
+\c@holder=\count347
+\c@savedholder=\count348
+\c@introduction=\count349
+\c@savedintroduction=\count350
+\c@namea=\count351
+\c@savednamea=\count352
+\c@nameb=\count353
+\c@savednameb=\count354
+\c@namec=\count355
+\c@savednamec=\count356
+\c@translator=\count357
+\c@savedtranslator=\count358
+\c@shortauthor=\count359
+\c@savedshortauthor=\count360
+\c@shorteditor=\count361
+\c@savedshorteditor=\count362
+\c@labelname=\count363
+\c@savedlabelname=\count364
+\c@institution=\count365
+\c@savedinstitution=\count366
+\c@lista=\count367
+\c@savedlista=\count368
+\c@listb=\count369
+\c@savedlistb=\count370
+\c@listc=\count371
+\c@savedlistc=\count372
+\c@listd=\count373
+\c@savedlistd=\count374
+\c@liste=\count375
+\c@savedliste=\count376
+\c@listf=\count377
+\c@savedlistf=\count378
+\c@location=\count379
+\c@savedlocation=\count380
+\c@organization=\count381
+\c@savedorganization=\count382
+\c@origlocation=\count383
+\c@savedoriglocation=\count384
+\c@origpublisher=\count385
+\c@savedorigpublisher=\count386
+\c@publisher=\count387
+\c@savedpublisher=\count388
+\c@language=\count389
+\c@savedlanguage=\count390
+\c@origlanguage=\count391
+\c@savedoriglanguage=\count392
+\c@pageref=\count393
+\c@savedpageref=\count394
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+\locallabelnumberwidth=\skip68
+\locallabelalphawidth=\skip69
+\localshorthandwidth=\skip70
+\localshortjournalwidth=\skip71
+\localshortserieswidth=\skip72
+\localshorttitlewidth=\skip73
+\localshortauthorwidth=\skip74
+\localshorteditorwidth=\skip75
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -523,19 +548,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.
 def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count393
-\c@textcitetotal=\count394
-\c@textcitemaxnames=\count395
-\c@biburlbigbreakpenalty=\count396
-\c@biburlbreakpenalty=\count397
-\c@biburlnumpenalty=\count398
-\c@biburlucpenalty=\count399
-\c@biburllcpenalty=\count400
+\c@textcitecount=\count395
+\c@textcitetotal=\count396
+\c@textcitemaxnames=\count397
+\c@biburlbigbreakpenalty=\count398
+\c@biburlbreakpenalty=\count399
+\c@biburlnumpenalty=\count400
+\c@biburlucpenalty=\count401
+\c@biburllcpenalty=\count402
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count401
+\c@smartand=\count403
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.bbx' found.
@@ -555,8 +580,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/stand
 ard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count402
-\c@bbx:relatedtotal=\count403
+\c@bbx:relatedcount=\count404
+\c@bbx:relatedtotal=\count405
 )))
 Package biblatex Info: Trying to load citation style 'authoryear-comp'...
 Package biblatex Info: ... file 'authoryear-comp.cbx' found.
@@ -600,66 +625,66 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.
 sty
 Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count404
+\FV@CodeLineNo=\count406
 \FV@InFile=\read3
 \FV@TabBox=\box49
-\c@FancyVerbLine=\count405
-\FV@StepNumber=\count406
+\c@FancyVerbLine=\count407
+\FV@StepNumber=\count408
 \FV@OutFile=\write4
 ) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.st
 y
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip75
-\fb@frw=\dimen160
-\fb@frh=\dimen161
-\FrameRule=\dimen162
-\FrameSep=\dimen163
+\OuterFrameSep=\skip76
+\fb@frw=\dimen161
+\fb@frh=\dimen162
+\FrameRule=\dimen163
+\FrameSep=\dimen164
 )
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
 y
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip76
-\LTright=\skip77
-\LTpre=\skip78
-\LTpost=\skip79
-\LTchunksize=\count407
-\LTcapwidth=\dimen164
+\LTleft=\skip77
+\LTright=\skip78
+\LTpre=\skip79
+\LTpost=\skip80
+\LTchunksize=\count409
+\LTcapwidth=\dimen165
 \LT@head=\box50
 \LT@firsthead=\box51
 \LT@foot=\box52
 \LT@lastfoot=\box53
-\LT@cols=\count408
-\LT@rows=\count409
-\c@LT@tables=\count410
-\c@LT@chunks=\count411
-\LT@p@ftn=\toks25
+\LT@cols=\count410
+\LT@rows=\count411
+\c@LT@tables=\count412
+\c@LT@chunks=\count413
+\LT@p@ftn=\toks26
 )
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
 sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen165
-\lightrulewidth=\dimen166
-\cmidrulewidth=\dimen167
-\belowrulesep=\dimen168
-\belowbottomsep=\dimen169
-\aboverulesep=\dimen170
-\abovetopsep=\dimen171
-\cmidrulesep=\dimen172
-\cmidrulekern=\dimen173
-\defaultaddspace=\dimen174
-\@cmidla=\count412
-\@cmidlb=\count413
-\@aboverulesep=\dimen175
-\@belowrulesep=\dimen176
-\@thisruleclass=\count414
-\@lastruleclass=\count415
-\@thisrulewidth=\dimen177
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count414
+\@cmidlb=\count415
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count416
+\@lastruleclass=\count417
+\@thisrulewidth=\dimen178
 )
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.
 sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box54
-\fn@width=\dimen178
+\fn@width=\dimen179
 )
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.st
 y
@@ -668,17 +693,17 @@ Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.s
 ty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen179
-\captionmargin@=\dimen180
-\captionwidth=\dimen181
-\caption@tempdima=\dimen182
-\caption@indent=\dimen183
-\caption@parindent=\dimen184
-\caption@hangindent=\dimen185
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count416
-\c@continuedfloat=\count417
+\c@caption@flags=\count418
+\c@continuedfloat=\count419
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -877,10 +902,10 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 tex
 (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils
 .tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count418
+\XKV@depth=\count420
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 
@@ -909,7 +934,7 @@ LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
 LaTeX Info: Redefining \bold on input line 510.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip80
+\rulethickness=\skip81
 ) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 ))
@@ -925,15 +950,15 @@ esomesymbols-pdftex.tex))
 sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip81
-\f@nch@O@elh=\skip82
-\f@nch@O@erh=\skip83
-\f@nch@O@olh=\skip84
-\f@nch@O@orh=\skip85
-\f@nch@O@elf=\skip86
-\f@nch@O@erf=\skip87
-\f@nch@O@olf=\skip88
-\f@nch@O@orf=\skip89
+\f@nch@headwidth=\skip82
+\f@nch@O@elh=\skip83
+\f@nch@O@erh=\skip84
+\f@nch@O@olh=\skip85
+\f@nch@O@orh=\skip86
+\f@nch@O@elf=\skip87
+\f@nch@O@erf=\skip88
+\f@nch@O@olf=\skip89
+\f@nch@O@orf=\skip90
 ) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup11
@@ -959,11 +984,164 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen186
-\Gin@req@width=\dimen187
+\Gin@req@height=\dimen187
+\Gin@req@width=\dimen188
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.
+sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box55
+\beforetitleunit=\skip91
+\aftertitleunit=\skip92
+\ttl@plus=\dimen189
+\ttl@minus=\dimen190
+\ttl@toksa=\toks29
+\titlewidth=\dimen191
+\titlewidthlast=\dimen192
+\titlewidthfirst=\dimen193
+) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.st
+y
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
+.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 191.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 191.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 191.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 191.
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/mathtool
+s.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count421
+\calc@Bcount=\count422
+\calc@Adimen=\dimen194
+\calc@Bdimen=\dimen195
+\calc@Askip=\skip93
+\calc@Bskip=\skip94
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count423
+\calc@Cskip=\skip95
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/mhsetup.
+sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count424
+\l_MT_multwidth_dim=\dimen196
+\origjot=\skip96
+\l_MT_shortvdotswithinadjustabove_dim=\dimen197
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen198
+\l_MT_above_intertext_sep=\dimen199
+\l_MT_below_intertext_sep=\dimen256
+\l_MT_above_shortintertext_sep=\dimen257
+\l_MT_below_shortintertext_sep=\dimen258
+\xmathstrut@box=\box56
+\xmathstrut@dim=\dimen259
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/eukdate/eukdate.st
+y
+Package: eukdate 2009/03/18 v1.04 UK format date (Hart's Rules) with weekday
+\c@euk@date=\count425
+\c@euk@month=\count426
+\c@euk@century=\count427
+\c@euk@year=\count428
+) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.st
+y
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
+d-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count429
+\l__pdf_internal_box=\box57
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse.sty
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse-2020-10-01.sty
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse-generic.tex))))
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/setspace.
+sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen260
+\ar@mcellbox=\box58
+\extrarowheight=\dimen261
+\NC@list=\toks30
+\extratabsurround=\skip97
+\backup@length=\skip98
+\ar@cellbox=\box59
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.
+sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip99
+\multirow@cntb=\count430
+\multirow@dima=\skip100
+\bigstrutjot=\dimen262
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
+y
+\wrapoverhang=\dimen263
+\WF@size=\dimen264
+\c@WF@wrappedlines=\count431
+\WF@box=\box60
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
+) (c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count432
+\float@exts=\toks32
+\float@box=\box61
+\@float@everytoks=\toks33
+\@floatcapt=\box62
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.
+sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks34
+\minrowclearance=\skip101
+)
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscap
+e.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(c:/Users/ibrah/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.st
+y
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 
-! LaTeX Error: File `titlesec.sty' not found.
+! LaTeX Error: File `tabu.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
@@ -972,15 +1150,15 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.149 \titleformat
-                  *{\section}{\Large\sf\bfseries\color[rgb]{0.8, 0.7, 0.1 }}^^M
- 
+l.328 \usepackage
+                 {threeparttable}^^M 
 Here is how much of TeX's memory you used:
- 19907 strings out of 480954
- 326046 string characters out of 5905840
- 761016 words of memory out of 5000000
- 36912 multiletter control sequences out of 15000+600000
+ 23243 strings out of 480954
+ 383914 string characters out of 5905840
+ 866642 words of memory out of 5000000
+ 40170 multiletter control sequences out of 15000+600000
  410662 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 71i,0n,74p,366b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,0n,75p,366b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
+
 !  ==> Fatal error occurred, no output PDF file produced!

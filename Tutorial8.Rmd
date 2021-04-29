@@ -17,7 +17,7 @@ author:
   email: XXX
   correspondingauthor: true
   qualifications:  XXX
-department: Our consultancy \newline add names &\newline add names
+department: Econometrics and Business Statistics
 organization: Australian Government COVID19
 bibliography: references.bib
 biblio-style: authoryear-comp
@@ -43,6 +43,7 @@ library(tidyverse)
 library(readr)
 library(kableExtra)
 library(bookdown)
+library(lubridate)
 
 ```
 
@@ -65,6 +66,18 @@ corona %>%
 ```
 
 As per \@ref(tab:covid-table)), Saudi Arabia had more cases in each month.
+
+```{r covid-figure}
+corona %>% 
+  filter(countriesAndTerritories %in% c('Jordan', 'Saudi_Arabia')) %>% 
+  mutate(dateRep = dmy(dateRep)) %>% 
+  ggplot(aes(x = dateRep, y= deaths, color = countriesAndTerritories)) +
+  geom_line()
+
+
+```
+
+As can be seen from \@ref(fig:covid-figure)), Saudi had more deaths over time than Jordan
 
 
 \section*{Country XX2 and YY2}
