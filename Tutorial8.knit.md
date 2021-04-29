@@ -36,33 +36,71 @@ output:
     toc: false
 ---
 
-```{r , echo = FALSE, message = FALSE, warning = FALSE}
-# Libraries
 
-library(tidyverse)
-library(readr)
-library(kableExtra)
-library(bookdown)
-
-```
 
 
 
 \section*{Country XX1 and YY1"}
 
-```{r read-data}
+
+```r
 corona <- read_csv('Data/worldwidecases.csv')
 ```
 
-```{r covid-table}
+```
+## 
+## -- Column specification --------------------------------------------------------
+## cols(
+##   dateRep = col_character(),
+##   day = col_double(),
+##   month = col_double(),
+##   year = col_double(),
+##   cases = col_double(),
+##   deaths = col_double(),
+##   countriesAndTerritories = col_character(),
+##   geoId = col_character(),
+##   countryterritoryCode = col_character(),
+##   popData2018 = col_double(),
+##   continentExp = col_character()
+## )
+```
+
+
+```r
 corona %>% 
   filter(year == 2020,
          countriesAndTerritories %in% c('Jordan', 'Saudi_Arabia')) %>% 
   group_by(countriesAndTerritories, month) %>%
   summarise(cases = sum(cases)) %>% 
   kable(caption = 'Jordan and Saudi cases per month in 2020')
-  
 ```
+
+```
+## `summarise()` has grouped output by 'countriesAndTerritories'. You can override using the `.groups` argument.
+```
+
+\begin{table}
+
+\caption{(\#tab:covid-table)Jordan and Saudi cases per month in 2020}
+\centering
+\begin{tabular}[t]{l|r|r}
+\hline
+countriesAndTerritories & month & cases\\
+\hline
+Jordan & 3 & 268\\
+\hline
+Jordan & 4 & 183\\
+\hline
+Jordan & 5 & 71\\
+\hline
+Saudi\_Arabia & 3 & 1453\\
+\hline
+Saudi\_Arabia & 4 & 19949\\
+\hline
+Saudi\_Arabia & 5 & 15734\\
+\hline
+\end{tabular}
+\end{table}
 
 As per \@ref(tab:covid-table)), Saudi Arabia had more cases in each month.
 
