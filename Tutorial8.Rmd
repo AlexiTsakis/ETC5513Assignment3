@@ -43,6 +43,7 @@ library(tidyverse)
 library(readr)
 library(kableExtra)
 library(bookdown)
+library(ggplot2)
 
 ```
 
@@ -64,14 +65,39 @@ france_italy <- covidsection2 %>%
 ```{r count cases and deaths for france and italy}
 france_italy_cases <- france_italy %>%
   group_by(countriesAndTerritories) %>%
-  tally(cases)
+  tally(cases) %>%
+  rename("cases" = n, "countries" = countriesAndTerritories)
 
 france_italy_deaths <- france_italy %>%
   group_by(countriesAndTerritories) %>%
-  tally(deaths)
+  tally(deaths) %>%
+  rename("deaths" = n, "countries" = countriesAndTerritories)
 ```
 
-By 10 May 2020, Italy had recorded 
+```{r join cases and deaths dataframes}
+france_italy_combined <- france_italy_cases %>%
+  left_join(france_italy_deaths)
+```
+
+```{r create summary table}
+france_italy_combined %>% 
+  kable(caption = "France and Italy: Total cases and deaths as of 10 May 2020") %>%
+  kable_styling(bootstrap_options = "striped")
+```
+
+Table \@ref(tab: create summary table) shows the total number of cases and deaths in France and Italy respectively, as of 10 May 2020. 
+
+The total number of cases and deaths in both countries is plotted in Figure \@ref(fig: total plot)
+
+```{r total plot, fig.cap = "France and Italy: Total cases and deaths as of 10 May 2020"}
+
+france_italy_combined %>%
+  ggplot(aes(x = countries, y = as.numeric(cases))) +
+  geom_bar(stat = "identity") +
+  labs(y = "cases")
+```
+
+
 \section*{Country XX3 and YY3}
 
 
