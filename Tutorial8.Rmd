@@ -47,8 +47,6 @@ library(lubridate)
 
 ```
 
-
-
 \section*{Country XX1 and YY1"}
 
 ```{r read-data}
@@ -65,9 +63,9 @@ corona %>%
   
 ```
 
-As per \@ref(tab:covid-table)), Saudi Arabia had more cases in each month.
+As per table \@ref(tab:covid-table), Saudi Arabia had more cases in each month.
 
-```{r covid-figure}
+```{r covid-figure, fig.cap='my table'}
 corona %>% 
   filter(countriesAndTerritories %in% c('Jordan', 'Saudi_Arabia')) %>% 
   mutate(dateRep = dmy(dateRep)) %>% 
@@ -77,12 +75,11 @@ corona %>%
 
 ```
 
-As can be seen from \@ref(fig:covid-figure)), Saudi had more deaths over time than Jordan
+As can be seen from figure \@ref(fig:covid-figure), Saudi had more deaths over time than Jordan.
 
+@alqutob2020covid This is consistent with the data reported in.
+The second way is [@alqutob2020covid]
 
 \section*{Country XX2 and YY2}
 
 \section*{Country XX3 and YY3}
-
-
-

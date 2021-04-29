@@ -72,6 +72,15 @@
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
@@ -247,7 +256,7 @@
 \makeatother
   \organization{Australian Government COVID19}
 
-  \def\name{Our consultancy \newline add names \&\newline add names}
+  \def\name{Econometrics and Business Statistics}
 
   \telephone{(03) 9905 2478}
 
@@ -399,7 +408,28 @@ Saudi\_Arabia & 5 & 15734\\
 \end{tabular}
 \end{table}
 
-As per \ref{tab:covid-table}), Saudi Arabia had more cases in each month.
+As per table \ref{tab:covid-table}, Saudi Arabia had more cases in each month.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{corona }\SpecialCharTok{\%\textgreater{}\%} 
+  \FunctionTok{filter}\NormalTok{(countriesAndTerritories }\SpecialCharTok{\%in\%} \FunctionTok{c}\NormalTok{(}\StringTok{\textquotesingle{}Jordan\textquotesingle{}}\NormalTok{, }\StringTok{\textquotesingle{}Saudi\_Arabia\textquotesingle{}}\NormalTok{)) }\SpecialCharTok{\%\textgreater{}\%} 
+  \FunctionTok{mutate}\NormalTok{(}\AttributeTok{dateRep =} \FunctionTok{dmy}\NormalTok{(dateRep)) }\SpecialCharTok{\%\textgreater{}\%} 
+  \FunctionTok{ggplot}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x =}\NormalTok{ dateRep, }\AttributeTok{y=}\NormalTok{ deaths, }\AttributeTok{color =}\NormalTok{ countriesAndTerritories)) }\SpecialCharTok{+}
+  \FunctionTok{geom\_line}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{figure}
+\centering
+\includegraphics{Tutorial8_files/figure-latex/covid-figure-1.pdf}
+\caption{\label{fig:covid-figure}my table}
+\end{figure}
+
+As can be seen from figure \ref{fig:covid-figure}, Saudi had more deaths over time than Jordan.
+
+\textcite{alqutob2020covid} This is consistent with the data reported in.
+The second way is \autocite{alqutob2020covid}
 
 \section*{Country XX2 and YY2}
 
